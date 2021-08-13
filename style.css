@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 40px;
+    text-transform: uppercase;
+}
+.textbox {
+    margin: 70px 40px 20px 40px;
+    font-size: 20px;
+}
+input {
+    display: inline-block;
+    margin-left: 70px;
+    padding: 15px;
+    font-size: 20px;
+    outline: none;
+    border: 2px solid #111;
+    border-radius: 30px;
+}
+button {
+    background-color: #1b1b1b;
+    display: inline-block;
+    padding: 10px 35px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    transition: .5s;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 19px;
+    border-radius: 30px;
+    box-shadow: 3px 5px 15px rgba(22,21,21,.15);
+}
+#myOutput {
+    margin-top: 25px;
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+    margin-left: 90px;
+}
+#seat_available {
+    margin-top: 25px;
+    font-size: 20px;
+    color: green;
+    font-weight: 600;
+    margin-left: 90px;
+}
+#seat_booked {
+    margin-top: 25px;
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+    margin-left: 90px;
+}
+
+.seatArrangement{
+  margin-left: 100px;
+}
+
+.seat {
+            height: 30px;
+            width: 30px;
+            margin: 5px 25px 5px 25px;
+            border: 1px solid gray;
+           cursor:pointer;
+           background-color: green;
+              }

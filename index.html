@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Seat Booking Portal</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Hello, Welcome to Seat Booking Portal</h1>
+    <h3 class="textbox">Enter Your Name and No. of seats for booking :</h3>
+    <div class="section">
+      <input id="name" type="text" placeholder="Name" />
+
+      <input id="numb" type="text" placeholder="Seats" />
+      <button type="button" onclick="getInput()">Book Now</button>
+      <p id="myOutput"></p>
+      <p id="seat_available"></p>
+        <p id="seat_booked"></p>
+
+    </div>
+
+    <div class="seatArrangement" style="border:1px solid gray; width:560px; Left-margin: 230px;">
+        <table>
+
+            <tr>
+                <td><div class="seat" id="00"></div> </td>
+                <td><div class="seat" id="01"></div></td>
+                <td><div class="seat" id="02"></div></td>
+                <td><div class="seat" id="03"></div></td>
+                <td><div class="seat" id="04"></div> </td>
+                <td><div class="seat" id="05"></div></td>
+                <td><div class="seat" id="06"></div></td>
+            </tr>
+            <tr>
+              <td><div class="seat" id="10"></div> </td>
+              <td><div class="seat" id="11"></div></td>
+              <td><div class="seat" id="12"></div></td>
+              <td><div class="seat" id="13"></div></td>
+              <td><div class="seat" id="14"></div> </td>
+              <td><div class="seat" id="15"></div></td>
+              <td><div class="seat" id="16"></div></td>
+            </tr>
+            <tr>
+              <td><div class="seat" id="20"></div> </td>
+              <td><div class="seat" id="21"</div></td>
+              <td><div class="seat" id="22"></div></td>
+              <td><div class="seat" id="23"></div></td>
+              <td><div class="seat" id="24"></div> </td>
+              <td><div class="seat" id="25"></div></td>
+              <td><div class="seat" id="26"></div></td>
+            </tr>
+            <tr>
+              <td><div class="seat" id="30"></div> </td>
+              <td><div class="seat" id="31"></div></td>
+              <td><div class="seat" id="32"></div></td>
+              <td><div class="seat" id="33"></div></td>
+              <td><div class="seat" id="34"></div> </td>
+              <td><div class="seat" id="35"></div></td>
+              <td><div class="seat" id="36"></div></td>
+            </tr>
+            <tr>
+              <td><div class="seat" id="40"></div> </td>
+              <td><div class="seat" id="41"></div></td>
+              <td><div class="seat" id="42"></div></td>
+              <td><div class="seat" id="43"></div></td>
+              <td><div class="seat" id="44"></div> </td>
+              <td><div class="seat" id="45"></div></td>
+              <td><div class="seat" id="46"></div></td>
+            </tr>
+            <tr>
+              <td><div class="seat" id="50"></div> </td>
+              <td><div class="seat" id="51"></div></td>
+              <td><div class="seat" id="52"></div></td>
+              <td><div class="seat" id="53"></div></td>
+              <td><div class="seat" id="54"></div> </td>
+              <td><div class="seat" id="55"></div></td>
+              <td><div class="seat" id="56"></div></td>
+            </tr>
+            <tr>
+              <td><div class="seat" id="60"></div> </td>
+              <td><div class="seat" id="61"></div></td>
+              <td><div class="seat" id="62"></div></td>
+              <td><div class="seat" id="63"></div></td>
+              <td><div class="seat" id="64"></div> </td>
+              <td><div class="seat" id="65"></div></td>
+              <td><div class="seat" id="66"></div></td>
+            </tr>
+            <tr>
+              <td><div class="seat" id="70"></div> </td>
+              <td><div class="seat" id="71"></div></td>
+              <td><div class="seat" id="72"></div></td>
+              <td><div class="seat" id="73"></div></td>
+              <td><div class="seat" id="74"></div> </td>
+              <td><div class="seat" id="75"></div></td>
+              <td><div class="seat" id="76"></div></td>
+            </tr>
+            <tr>
+              <td><div class="seat" id="80"></div> </td>
+              <td><div class="seat" id="81"></div></td>
+              <td><div class="seat" id="82"></div></td>
+              <td><div class="seat" id="83"></div></td>
+              <td><div class="seat" id="84"></div> </td>
+              <td><div class="seat" id="85"></div></td>
+              <td><div class="seat" id="86"></div></td>
+            </tr>
+            <tr>
+              <td><div class="seat" id="90"></div> </td>
+              <td><div class="seat" id="91"></div></td>
+              <td><div class="seat" id="92"></div></td>
+              <td><div class="seat" id="93"></div></td>
+              <td><div class="seat" id="94"></div> </td>
+              <td><div class="seat" id="95"></div></td>
+              <td><div class="seat" id="96"></div></td>
+            </tr>
+            <tr>
+              <td><div class="seat" id="100"></div> </td>
+              <td><div class="seat" id="101"></div></td>
+              <td><div class="seat" id="102"></div></td>
+              <td><div class="seat" id="103"></div></td>
+              <td><div class="seat" id="104"></div> </td>
+              <td><div class="seat" id="105"></div></td>
+              <td><div class="seat" id="106"></div></td>
+            <tr>
+              <td><div class="seat" id="110"></div> </td>
+              <td><div class="seat" id="111"></div></td>
+              <td><div class="seat" id="112"></div></td>
+            </tr>
+        </table>
+    </div>
+    <h3 id="full"></h3>
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
